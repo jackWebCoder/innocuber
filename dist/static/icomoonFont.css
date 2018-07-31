@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.ttf'); 
+  /* src:  url('../font/icomoon.eot?t1tkvm#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?t1tkvm') format('truetype'),
+    url('../font/icomoon.woff?t1tkvm') format('woff'),
+    url('../font/icomoon.svg?t1tkvm#icomoon') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: pingfangB;
+    src: url('~@/assets/font/PingFang Bold.ttf');
+}
+@font-face{
+  font-family: pingfangL;
+  src: url('~@/assets/font/PingFang Light.ttf');
+}
+@font-face{
+    font-family: pingfangR;
+    src: url('~@/assets/font/PingFangHK-Regular.ttf');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-folder-download:before {
+  content: "\e933";
+}
